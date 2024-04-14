@@ -1,0 +1,69 @@
+/* Home.css */
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  margin-bottom: 20px; /* Add bottom margin to create space between Slider and Product Showcase */
+}
+
+.slider-image {
+  width: auto;
+  height: 100%; /* Ensure images fill the height of the slider container */
+  object-fit: contain; /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto; /* Center horizontally */
+}
+
+.product {
+  width: 200px; /* Set the width of each product */
+  margin: 0 10px; /* Add margin between products */
+}
+
+.product-image {
+  width: 100%; /* Ensure images fill the width of the product container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.home-container {
+  padding-top: 40px; /* Add top padding to create space between Slider and Navbar */
+}
+
+.productShowcase {
+  display: flex; /* Use flexbox for horizontal layout */
+  flex-wrap: wrap; /* Allow products to wrap to the next row if necessary */
+  justify-content: space-between; /* Distribute products evenly along the row */
+}
+
+.product-list {
+  display: flex;
+}
+
+.product {
+  margin-right: 20px; /* Add margin between products */
+}
+@media (min-width: 768px) {
+  .product {
+    width: calc(33.33% - 10px); /* Set width of each product to 33.33% of the container minus margin */
+  }
+}
+
+@media (min-width: 1200px) {
+  .product {
+    width: calc(25% - 10px); /* Set width of each product to 25% of the container minus margin */
+  }
+}
+/* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}

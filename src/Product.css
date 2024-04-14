@@ -1,0 +1,32 @@
+/* Product.css */
+.product-box {
+    display: flex;
+    flex-direction: column; /* Set flex direction to column */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center; /* Align items to center horizontally */
+  }
+  
+  .product-image {
+    width: 80px; /* Set a smaller width for the container */
+    height: auto; /* Maintain aspect ratio */
+    overflow: hidden;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center the image horizontally */
+  }
+  
+  .product-image img {
+    width: 400px;
+    height: 100%;
+    object-fit: contain; /* Change to contain to show the full image */
+  }
+  
+  .product-details h3 {
+    margin-top: 0;
+  }
+  
+  .product-details p {
+    margin-bottom: 5px;
+  }
+  

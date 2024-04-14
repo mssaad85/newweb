@@ -1,0 +1,41 @@
+/* About.css */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-section,
+  .background-section,
+  .company-details {
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .about-section:hover,
+  .background-section:hover,
+  .company-details:hover {
+    transform: translateY(-5px);
+  }
+  
+  .about-section h2,
+  .background-section h2,
+  .company-details h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p,
+  .background-section p,
+  .company-details p {
+    line-height: 1.6;
+  }
+  
+  .company-details p {
+    margin-bottom: 0;
+  }
+  
